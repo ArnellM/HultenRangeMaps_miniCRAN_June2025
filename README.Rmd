@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 
 This 'mini' repository has been set up to insure reproducability of the package [HultenRangeMaps](https://github.com/ArnellM/HultenRangeMaps.git). The repository contains all packages that the functions in HultenRangeMaps require. First, download the repository to your computer. Then, install the packages from your local repository using the code below.
 
-```{r cars}
+```{r, results='hide', message=F}
 # list of packages that the functions in HultenRangeMaps require
 pkgs <- c("dplyr", "gdalUtilities", "geojsonio", "gtools", "igraph", "jpeg", "raster", "sf", "terra", "tidyr")
 
